@@ -1,0 +1,83 @@
+body {
+    background-color:aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    background-color: slateblue;
+    color:springgreen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+
+
+.cheese {
+    text-align: center;
+    font-size: 25px;
+    background-color: orange;
+    color:yellow;
+}
+body h1 a {
+    color: blue;
+    background-color:chartreuse;
+    border-radius: 20px;
+    padding: 5px;
+}
+body h1 a:hover {
+    color:chartreuse;
+    background-color:purple;
+    padding: 25px;
+}
+
+.band {
+    background-color:deepskyblue;
+    color:blue;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+
+.waldo {
+    background-color:teal;
+    color:lightgreen;
+    font-size: 15px;
+}
+
+.arlene {
+    background-color:hotpink;
+    color:yellow;
+    font-size: 15px;
+}
+
+.violet {
+    background-color:blueviolet;
+    color:plum;
+    font-size: 15px;
+}
+
+.history {
+    background-color:chartreuse;
+    color:cornflowerblue;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+.bio {
+    background-color:yellow;
+    color:mediumseagreen;
+    font-size: 15px;
+}
+
+footer h1 {
+    background-color: teal;
+    color:orange;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
