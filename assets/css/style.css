@@ -1,81 +1,66 @@
 body {
-    background-color:aqua;
+    background-image:-webkit-radial-gradient(yellow,orange,hotpink,deeppink,darkorchid,purple,blue,aqua,lime, green,yellow,orange,hotpink,deeppink,darkorchid,purple,blue,aqua,lime,green);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title{
     text-align: center;
-    font-size: 30px;
-    background-color: slateblue;
-    color:springgreen;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
+    font-size: 50px;
+    background: linear-gradient(to right, lime,aqua,hotpink,orange,yellow);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
 }
 
-
+img{
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 10px;
+}
 
 .cheese {
     text-align: center;
     font-size: 25px;
-    background-color: orange;
-    color:yellow;
-}
-body h1 a {
-    color: blue;
-    background-color:chartreuse;
-    border-radius: 20px;
-    padding: 5px;
-}
-body h1 a:hover {
-    color:chartreuse;
-    background-color:purple;
-    padding: 25px;
-}
-
-.band {
-    background-color:deepskyblue;
-    color:blue;
-    font-style: italic;
-    text-align: center;
-    font-size: 30px;
-}
-
-.waldo {
-    background-color:teal;
-    color:lightgreen;
-    font-size: 15px;
-}
-
-.arlene {
-    background-color:hotpink;
-    color:yellow;
-    font-size: 15px;
-}
-
-.violet {
-    background-color:blueviolet;
-    color:plum;
-    font-size: 15px;
-}
-
-.history {
-    background-color:chartreuse;
-    color:cornflowerblue;
-    font-style: italic;
-    text-align: center;
-    font-size: 30px;
-}
-.bio {
     background-color:yellow;
-    color:mediumseagreen;
-    font-size: 15px;
+    color:darkorange;
+}
+
+.container {
+    border-style: ridge;
+    border-radius: 10px;
+    border-width: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.subtitle {
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.text {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 footer h1 {
-    background-color: teal;
-    color:orange;
-    font-size: 30px;
+    background-color:darkblue;
+    color:cyan;
+    font-size: 25px;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
