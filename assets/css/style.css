@@ -34,6 +34,8 @@ img{
     font-size: 25px;
     background-color:yellow;
     color:darkorange;
+    border-radius: 10px;
+    padding:5px;
 }
 
 .container {
@@ -57,12 +59,23 @@ img{
     margin-right: 50px;
 }
 
-footer h1 {
-    background-color:darkblue;
-    color:cyan;
-    font-size: 25px;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+.link{
+    background-color:black;
+    padding: 5px;
+    border-radius: 20px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: white;
+    color: white;
+}
+.link:hover {
+    color: lime;
+    font-size: 28px;
+}
+
+iframe {
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
 }
 
